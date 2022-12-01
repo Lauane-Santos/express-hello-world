@@ -55,7 +55,7 @@ app.get('/pokemons', (req, res) => {
 
 
 
-app.get('/series', (req, res) => {
+app.post('/series', (req, res) => {
 
   console.log("Just got a request!")
   const series = ['Anne with an E', 'Eu nunca', 'Black Mirror']
